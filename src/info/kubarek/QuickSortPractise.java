@@ -33,7 +33,9 @@ public class QuickSortPractise
                 A[pivot] = tmp;
             }
         
+        System.out.println("------");
         System.out.println("quick: " + Arrays.toString(A));
+        
         
         int p = lo + ((hi - lo) / 2);
         quick(A, lo, p);
